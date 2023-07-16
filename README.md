@@ -2,7 +2,7 @@
 
 ## Description
 
-A decentralized chat application made using GUNDB.
+A decentralized chat application made using GUNDB that is pinned to ipfs.
 
 <!--- - What was your motivation?
  - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
@@ -27,8 +27,14 @@ A decentralized chat application made using GUNDB.
 - The concept of decentralized databases was used.
 - We made use of FileBase.
 <img src="https://3799256445-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-Lyjw7dWpiQtUFDa1pO0%2F-MlVccvpdRHiuI8WKdYJ%2F-MlVe8-6AtNdNhXyY1iH%2Fimage.png?alt=media&token=03e10634-f274-453c-b076-4ccf8194b167">
-- Once we login to FileBase, we create our own IPFS-bucket.
-- 
+- Once we log in to FileBase, we create our own IPFS bucket (IPFS Storage Network).
+- Download and Install S3FS-FUSE on your OS.
+- Set up an Access Key File for use with it.
+- Use the secret key and the public id to mount the bucket.
+- Clone the provided repo.
+- Run the application.
+- Run it on 2 instances if using localhost, and enjoy the features of real-time chatting.
+-  
 
 
 Provide instructions and examples for use. Include screenshots as needed.
